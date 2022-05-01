@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <title>m3m0ries</title>
+</head>
+
+<body>
+    <h1>Memo with Andin</h1>
+    <div class="content">
+        <div class="wow animate__animated animate__fadeInUp" data--offset="10">
+            <h2>Batman Movie at PTC - <span class="tgl">11 March</span></h2>
+            <img src="img\img (59).jpeg" style="height:350px;">
+            <img src="img\img (62).jpeg" style="height:350px;">
+        </div>
+
+        <div class="wow animate__animated animate__fadeInUp" data--offset="10">
+            <h2>Scooter Ride at Kodam - <span class="tgl">17 March</span></h2>
+            <img src="img\img (10).jpeg" style="height:350px;">
+            <img src="img\img (5).jpeg" style="height:350px;">
+        </div>
+
+        <div class="wow animate__animated  animate__fadeInUp" data--offset="10">
+            <h2>Burger Luch at Pinggir Jalan - <span class="tgl">19 March</span></h2>
+            <img src="img\img (0).jpeg" style="height:150px;">
+        </div>
+
+        <div class="wow animate__animated animate__ animate__fadeInUp" data--offset="10">
+            <h2>Half Day at Tugu Pahlawan - <span class="tgl">20 March</span></h2>
+            <img src="img\img (26).jpeg" style="height:350px;">
+            <img src="img\img (19).jpeg" style="height:350px;">
+        </div>
+
+        <div class="wow animate__animated  animate__fadeInUp" data--offset="10">
+            <h2>Night Stroll at Kofibrik - <span class="tgl">24 March</span></h2>
+            <img src="img\img (25).jpeg" style="height:350px;">
+        </div>
+
+        <div class="wow animate__animated animate__ animate__fadeInUp" data--offset="10">
+            <h2>Jogging at Masjid Agung - <span class="tgl">26 March</span></h2>
+            <img src="img\img (24).jpeg" style="height:350px;">
+        </div>
+
+        <div class="wow animate__animated  animate__fadeInUp" data--offset="10">
+            <h2>Bukber at Tunjungan Plaza - <span class="tgl">7 April</span></h2>
+            <img src="img\img (0).jpeg" style="height:150px;">
+        </div>
+
+        <div class="wow animate__animated  animate__fadeInUp" data--offset="10">
+            <h2>Blurry Night - <span class="tgl">9 April</span></h2>
+            <img src="img\img (34).jpeg" style="height:350px;">
+        </div>
+
+        <div class="wow wow animate__animated  animate__fadeInUp" data--offset="10">
+            <h2>Moving Out at Food Court - <span class="tgl">12 April</span></h2>
+            <img src="img\img (31).jpeg" style="height:350px;">
+            <img src="img\img (32).jpeg" style="height:350px;">
+        </div>
+
+        <div class="wow wow animate__animated  animate__fadeInUp" data--offset="10">
+            <h2>Ngabuburit at Basement - <span class="tgl">16 April</span></h2>
+            <img src="img\img (38).jpeg" style="height:350px;">
+            <img src="img\img (39).jpeg" style="height:350px;">
+        </div>
+
+        <div class="wow animate__animated  animate__fadeInUp" data--offset="10">
+            <h2>Bukber at Sunan Ampel/Yoshinoya - <span class="tgl">16 April</span></h2>
+            <img src="img\img (46).jpeg" style="height:350px;">
+            <img src="img\img (44).jpeg" style="height:350px;">
+        </div>
+
+        <div class="wow animate__animated  animate__fadeInUp" data--offset="10">
+            <h2>Fantastic Beast Movie at Grand City - <span class="tgl">21 April</span></h2>
+            <img src="img\img (54).jpeg" style="height:350px;">
+            <img src="img\img (48).jpeg" style="height:350px;">
+        </div>
+
+    </div>
+
+    <h2 class="soon"><i>Soon - <span class="tgl">???</span></i></h2>
+
+    <script src="dist/wow.js"></script>
+    <script>
+        wow = new WOW(
+            {
+                animateClass: 'animated',
+                offset: 100,
+                callback: function (box) {
+                    console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+                }
+            }
+        );
+        wow.init();
+        document.getElementById('moar').onclick = function () {
+            var section = document.createElement('section');
+            section.className = 'section--purple wow fadeInDown';
+            this.parentNode.insertBefore(section, this);
+        };
+    </script>
+</body>
+
+</html>
