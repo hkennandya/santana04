@@ -49,9 +49,10 @@ img {
     margin-left: 25px;
     margin-right: 25px;
     border: 2px solid #707070;
+    height:500px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
 
     .wow {
         margin-left: 5px;
@@ -59,6 +60,7 @@ img {
     }
 
     img {
+        height:250px;
         margin-bottom: 50px;
     }
 }
