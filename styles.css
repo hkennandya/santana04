@@ -53,12 +53,12 @@ img {
 
 @media only screen and (max-width: 768px) {
     .wow {
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: 25px;
+        margin-right: 25px;
     }
 
     img {
+        height: 200px;
         margin-bottom: 50px;
-
     }
 }
